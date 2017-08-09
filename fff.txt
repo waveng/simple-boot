@@ -1,0 +1,12 @@
+export -Xmx2048m -Xms1536m -XX:PermSize=128m -XX:MaxPermSize=256m -server
+
+外置配置文件
+
+Spring程序会按优先级从下面这些路径来加载application.properties配置文件
+
+当前目录下的/config目录
+当前目录
+classpath里的/config目录
+classpath 跟目录
+
+http://blog.csdn.net/catoop/article/details/50588851
